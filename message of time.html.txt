@@ -1,0 +1,35 @@
+<?php
+//change the messages to what you want
+$afternoon="Good Afternoon!";
+$evening="Good Evening!";
+$late="working late?";
+$morning="Good Morning!";
+$friday="Get ready for weekend!";
+//Get the current hour
+$current_time=date('G');
+
+//Get the current day
+$current_day=date('l');
+//12p.m-4p.m
+if($current_time>=12&&$current_time<+16)
+{
+echo $afternoon;
+}
+//5p.m-11p.m
+elseif($current_time>=17&&$current_time<=24){
+echo $evening;
+}
+//12a.m-5a.m
+elseif($current_time>=1&&$current_time<=5){
+echo $late;
+}
+//6a.m-11a.m
+elseif($current_time>=6&&$current_time<=11){
+echo $mornin;
+}
+//if its friday,display a message
+if($current_day=="friday")
+{
+echo $friday;
+}
+?>
