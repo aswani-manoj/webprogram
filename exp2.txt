@@ -1,0 +1,50 @@
+﻿TABLE
+
+
+<html>
+<head>
+<title>link</title>
+</head>
+<body>
+<h1 align="center">STUDENT DETAILS</h1>
+<table  border="2" width="3" align="center">
+<tr><th>name</th>
+<th>roll no</th>
+<th>Admission number</th>
+<th>marks</th></tr>
+<tr><th>Aswani</th>
+<th>22</th>
+<th>20m067</th>
+<th>98</th></tr>
+<tr><th>Anagha</th>
+<th>06</th>
+<th>20m045</th>
+<th>50</th></tr>
+<tr><th>vismaya</th>
+<th>28</th>
+<th>20m0m23</th>
+<th>67</th></tr>
+</table><br><br>
+<a href="C:\Users\user\Desktop\chakki\img.html">click here</a>
+</body></html>
+  
+
+
+
+
+
+LINK
+
+
+<html>
+<head>
+<title>lo</title>
+</head>
+<body>
+<img src="C:\Users\user\Desktop\chakki\flowers.jpg" alt="image of flower" usemap="map1" height="250" width="500">
+<mapname="map1">
+<area shape="rect" coords="34,44,270,350" alt="flower" href="flowers.jpg">
+</map><br>
+<a href="C:\Users\user\Desktop\chakki\pg.html">go back</a>
+</body>
+</html>
